@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "check-wallet-tron-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["vlad-terehoff <tereh_off95@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.7"
+uvicorn = "^0.34.0"
+pytest-asyncio = "^0.25.2"
+httpx = "^0.28.1"
+fastapi-pagination = "^0.12.34"
+pydantic-settings = "^2.7.1"
+pydantic = "^2.10.6"
+alembic = "^1.14.1"
+pytest = "^8.3.4"
+tronpy = "^0.5.0"
+asyncpg = "^0.30.0"
+sqlalchemy = {extras = ["full"], version = "^2.0.37"}
+psycopg2-binary = "^2.9.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
